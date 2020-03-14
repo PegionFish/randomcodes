@@ -1,0 +1,135 @@
+**** ERROR ****
+**** Unable to init WebUI. Exiting...
+6 Mar 2020 00:57:33 +0000 x86_64
+version: 2.6.4.1344
+[20200307 17:27:48.374] VerifyFileWithHash failed on file /home/bob/Desktop/randomcodes/python/.sync/settings.dat with status 2.
+[20200307 17:27:48.374] VerifyFileWithHash failed on file /home/bob/Desktop/randomcodes/python/.sync/settings.dat with status 2.
+[20200307 17:27:48.374] VerifyFileWithHash failed on file /home/bob/Desktop/randomcodes/python/.sync/settings.dat with status 2.
+[20200307 17:27:48.374] ZIP: Can't locate [version] in zip, error -100.
+[20200307 17:27:48.374] VerifyFileWithHash failed on file ./.sync//settings.dat with status 2.
+[20200307 17:27:48.374] VerifyFileWithHash failed on file ./.sync//settings.dat with status 2.
+[20200307 17:27:48.374] VerifyFileWithHash failed on file ./.sync//settings.dat with status 2.
+[20200307 17:27:48.377] VerifyFileWithHash failed on file ./.sync//sync.dat with status 2.
+[20200307 17:27:48.377] VerifyFileWithHash failed on file ./.sync//sync.dat with status 2.
+[20200307 17:27:48.377] VerifyFileWithHash failed on file ./.sync//sync.dat with status 2.
+[20200307 17:27:48.377] Failed to find/load sync.dat - 2
+[20200307 17:27:48.377] test sha1: AE5BD8EFEA5322C4D9986D06680A781392F9A642
+[20200307 17:27:48.377] test sha2: 630DCD2966C4336691125448BBB25B4FF412A49C732DB2C8ABC1B8581BD710DD
+[20200307 17:27:48.378] test aes: 0A940BB5416EF045F1C39458C653EA5A07FEEF74E1D5036E900EEE118E949293
+[20200307 17:27:48.378] DISKIO[0x000055709ba31c80]: Create diskio pool for drive with id 18446744073709551614, path: , type: 0, size: 1
+[20200307 17:27:48.378] WORKER[0x000055709ba31e70]: created
+[20200307 17:27:48.378] DISKIO[0x000055709ba31c80]: created
+[20200307 17:27:48.378] WORKER[0x000055709ba31af0]: created
+[20200307 17:27:48.378] WORKER[0x000055709ba324b0]: created
+[20200307 17:27:48.378] WORKER[0x000055709ba31af0]: thread start
+[20200307 17:27:48.378] WORKER[0x000055709ba327b0]: created
+[20200307 17:27:48.378] WORKER[0x000055709ba324b0]: thread start
+[20200307 17:27:48.378] WORKER[0x000055709ba32ab0]: created
+[20200307 17:27:48.378] WORKER[0x000055709ba32db0]: created
+[20200307 17:27:48.378] WORKER[0x000055709ba32ab0]: thread start
+[20200307 17:27:48.378] WORKER[0x000055709ba330b0]: created
+[20200307 17:27:48.379] WORKER[0x000055709ba32db0]: thread start
+[20200307 17:27:48.379] WORKER[0x000055709ba333b0]: created
+[20200307 17:27:48.379] WORKER[0x000055709ba330b0]: thread start
+[20200307 17:27:48.379] WORKER[0x000055709ba336b0]: created
+[20200307 17:27:48.379] WORKER[0x000055709ba333b0]: thread start
+[20200307 17:27:48.379] WORKER[0x000055709ba33a50]: created
+[20200307 17:27:48.381] WORKER[0x000055709ba336b0]: thread start
+[20200307 17:27:48.382] register completion queue with id 0
+[20200307 17:27:48.382] register completion queue with id 0
+[20200307 17:27:48.382] register completion queue with id 0
+[20200307 17:27:48.383] 20PeerListenConnection::listen[0x000055709ba3a510][9] bound listening socket 9 to IP 0.0.0.0:57436
+[20200307 17:27:48.384] 20PeerListenConnection::listen[0x000055709ba3a550][10] bound listening socket 10 to IP [::]:57436
+[20200307 17:27:48.384] UDP: UDP: bound listening socket 11 to IP 0.0.0.0:57436
+[20200307 17:27:48.384] UDP: UDP: bound listening socket 12 to IP [::]:57436
+[20200307 17:27:48.387] SE_HTTP_UI_INIT_ERROR - Failed to bind to 127.0.0.1:8888
+[20200307 17:27:48.387] Unable to init WebUI. Exiting...
+[20200307 17:27:48.387] Quit reason: Unable to init WebUI. Exiting...
+[20200307 17:27:48.394] webui thread start
+[20200307 17:27:48.395] register completion queue with id 1
+[20200307 17:27:48.395] register completion queue with id 1
+[20200307 17:27:48.395] register completion queue with id 1
+[20200307 17:27:48.395] DISK_WORKER[0x000055709ba31e70]: diskio thread start, drive_id = 18446744073709551614, priority = normal
+[20200307 17:27:48.395] WORKER[0x000055709ba327b0]: thread start
+[20200307 17:27:48.395] WORKER[0x000055709ba33a50]: thread start
+[20200307 17:27:48.401] IPv6 is installed
+[20200307 17:27:48.401] Unsupported or empty sync.dat file
+[20200307 17:27:48.401] My PeerID: 10775C0BCC51ED805E65D6A2B3DBDFAC6CB89D09
+[20200307 17:27:48.401] LC: LoadLicenses: there is no pro license
+[20200307 17:27:48.401] VerifyFileWithHash failed on file ./.sync//history.dat with status 2.
+[20200307 17:27:48.401] VerifyFileWithHash failed on file ./.sync//history.dat with status 2.
+[20200307 17:27:48.402] VerifyFileWithHash failed on file ./.sync//history.dat with status 2.
+[20200307 17:27:48.402] Joining on interface docker0
+[20200307 17:27:48.403] Joining to the multicast group 239.192.0.0:3838 on interface 172.17.0.1
+[20200307 17:27:48.403] Joining on interface enp0s25
+[20200307 17:27:48.403] Joining to the multicast group 239.192.0.0:3838 on interface 192.168.1.115
+[20200307 17:27:48.403] Joining to the multicast group [ff08::f:5f:1c:6f]:3838 on interface 240e:390:e42:3640:1f2e:7c18:ea4a:999a
+[20200307 17:27:48.404] Joining on interface lo
+[20200307 17:27:48.404] Joining to the multicast group 239.192.0.0:3838 on interface 127.0.0.1
+[20200307 17:27:48.404] Joining to the multicast group [ff08::f:5f:1c:6f]:3838 on interface ::1
+[20200307 17:27:48.405] Joining on interface wlp3s0
+[20200307 17:27:48.405] Joining to the multicast group 239.192.0.0:3838 on interface 192.168.50.215
+[20200307 17:27:48.406] Scheduler: Apply global rule, download limit: -1, upload limit: -1
+[20200307 17:27:48.407] message thread start
+[20200307 17:27:48.407] SYS_RES: drive "/", id: 2050, capacity: 559142354944, free_space: 361059487744
+[20200307 17:27:48.407] SYS_RES: drive "/HDD", id: 2065, capacity: 1867889025024, free_space: 1039101419520
+[20200307 17:27:48.408] saved history: 0 events
+[20200307 17:27:49.382] SyncFolderScanner: shut down
+[20200307 17:27:49.382] unregister completion queue with id 1
+[20200307 17:27:49.382] unregister completion queue with id 1
+[20200307 17:27:49.382] message thread stop
+[20200307 17:27:49.382] GS: shutdown
+[20200307 17:27:49.384] DISKIO[0x000055709ba31c80]: stopping service threads
+[20200307 17:27:49.384] DISK_WORKER[0x000055709ba31e70]: diskio thread stop, drive_id = 18446744073709551614
+[20200307 17:27:49.384] DISKIO[0x000055709ba31c80]: service threads stopped
+[20200307 17:27:49.384] WORKER[0x000055709ba31e70]: deleted
+[20200307 17:27:49.384] DISKIO[0x000055709ba31c80]: deleted
+[20200307 17:27:49.384] WORKER[0x000055709ba31af0]: thread stop
+[20200307 17:27:49.384] WORKER[0x000055709ba31af0]: deleted
+[20200307 17:27:49.384] WORKER[0x000055709ba324b0]: thread stop
+[20200307 17:27:49.384] WORKER[0x000055709ba324b0]: deleted
+[20200307 17:27:49.384] WORKER[0x000055709ba327b0]: thread stop
+[20200307 17:27:49.384] WORKER[0x000055709ba327b0]: deleted
+[20200307 17:27:49.384] WORKER[0x000055709ba32ab0]: thread stop
+[20200307 17:27:49.384] WORKER[0x000055709ba32ab0]: deleted
+[20200307 17:27:49.384] WORKER[0x000055709ba32db0]: thread stop
+[20200307 17:27:49.384] WORKER[0x000055709ba32db0]: deleted
+[20200307 17:27:49.384] WORKER[0x000055709ba330b0]: thread stop
+[20200307 17:27:49.384] WORKER[0x000055709ba330b0]: deleted
+[20200307 17:27:49.384] WORKER[0x000055709ba333b0]: thread stop
+[20200307 17:27:49.384] WORKER[0x000055709ba333b0]: deleted
+[20200307 17:27:49.384] WORKER[0x000055709ba336b0]: thread stop
+[20200307 17:27:49.384] WORKER[0x000055709ba336b0]: deleted
+[20200307 17:27:49.384] webui thread stop
+[20200307 17:27:54.243] Torrent session shutdown: done waiting
+[20200307 17:27:54.243] Stopping network threads
+[20200307 17:27:54.256] Network_ReleaseSockets: deleting 16UDPSocketManager
+[20200307 17:27:54.256] UDP: Stopping UDP threads for 0.0.0.0:57436
+[20200307 17:27:54.291] Network_ReleaseSockets: deleting 20HttpClientConnection
+[20200307 17:27:54.291] Network_ReleaseSockets: deleting 20HttpClientConnection
+[20200307 17:27:54.291] Network_ReleaseSockets: deleting 20HttpClientConnection
+[20200307 17:27:54.291] Network_ReleaseSockets: deleting 20HttpClientConnection
+[20200307 17:27:54.291] Network_ReleaseSockets: deleting 16DatagramSocketV4
+[20200307 17:27:54.291] Network_ReleaseSockets: deleting 16DatagramSocketV6
+[20200307 17:27:54.291] Network_ReleaseSockets: deleting 16DatagramSocketV4
+[20200307 17:27:54.291] Network_ReleaseSockets: deleting 16DatagramSocketV6
+[20200307 17:27:54.291] Network_ReleaseSockets: deleting 16DatagramSocketV4
+[20200307 17:27:54.291] Network_ReleaseSockets: deleting 16DatagramSocketV4
+[20200307 17:27:54.291] Network_ReleaseSockets: deleting 16DatagramSocketV6
+[20200307 17:27:54.291] Network_ReleaseSockets: deleting 16DatagramSocketV4
+[20200307 17:27:54.291] Network_ReleaseSockets: deleting 15NatPmpUdpSocket
+[20200307 17:27:54.291] Network_ReleaseSockets: deleting 24UpnpNotifyListenerSocket
+[20200307 17:27:54.291] Network_ReleaseSockets: deleting 19UpnpBroadcastSocket
+[20200307 17:27:54.291] Network_ReleaseSockets: deleting 19UpnpBroadcastSocket
+[20200307 17:27:54.291] Network_ReleaseSockets: deleting 19UpnpBroadcastSocket
+[20200307 17:27:54.291] Network_ReleaseSockets: deleting 19UpnpBroadcastSocket
+[20200307 17:27:54.291] Network_ReleaseSockets: deleting 13NetlinkSocket
+[20200307 17:27:54.291] Network_ReleaseSockets: deleting 20PeerListenConnection
+[20200307 17:27:54.291] Network_ReleaseSockets: deleting 20PeerListenConnection
+[20200307 17:27:54.291] Network_ReleaseSockets: deleting 7EventFD
+[20200307 17:27:54.291] Network_ReleaseSockets: deleting 16UDPSocketManager
+[20200307 17:27:54.291] UDP: Stopping UDP threads for [::]:57436
+[20200307 17:27:54.303] Network_ReleaseSockets: all sockets have been released
+[20200307 17:27:54.304] WORKER[0x000055709ba33a50]: thread stop
+[20200307 17:27:54.304] WORKER[0x000055709ba33a50]: deleted
+[20200307 17:27:54.304] Shutdown. Saving config sync.dat
