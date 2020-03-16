@@ -5,7 +5,7 @@ for n in range(2, 100, 1):
         continue # start next loop ignoring all codes below
 
     for i in range(2, n):
-        if (n % 1) == 0:
+        if (n % i) == 0:
             break # stops the loop & start another due to the first for
 
     else: # this beloings to the seconde for: when there is completely no break this else will be executed.
