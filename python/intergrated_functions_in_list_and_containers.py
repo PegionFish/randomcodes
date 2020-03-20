@@ -15,8 +15,8 @@ a_list *= 3
 print(a_list)
 
 # Build-in function operation len(),max(),min()
-print(len(c_list))
-print(max(b_list))
-print(min(b_list))
+print(len(c_list)) # Length of a list
+print(max(b_list)) # Largest unit in list
+print(min(b_list)) # Smallest unit in list
 
 print("X" not in b_list)
