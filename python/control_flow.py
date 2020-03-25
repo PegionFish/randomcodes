@@ -40,3 +40,25 @@ for n in range(2, 100):
 ## This else is for "if n == 2"
     else:
         print(n)
+
+# While 
+# This program outputs Successione di Fiboncaci under 1000
+
+print()
+
+count = 1000
+a, b = 0, 1
+
+while a < count:
+    print (a, end = "")
+    a.b, b = b, a + b
+print()
+
+# For
+
+print()
+
+words = ["cats", "dogs", "pegionfish", "cyberpunk1919"]
+
+for w in words:
+    print (w, len(w))
