@@ -44,9 +44,10 @@ number = 10000
 alpha = range(number)
 beta = tuple(alpha) # This move converted Alpha to tuple
 charlie = list(alpha) # This move converted Alpha to list
-
+print (alpha)
+print()
 # sizeof returns binary numbers
 
-print(a.__sizeof__())
-print(b.__sizeof__())
-print(c.__sizeof__())
+print(alpha.__sizeof__())
+print(beta.__sizeof__())
+print(charlie.__sizeof__())

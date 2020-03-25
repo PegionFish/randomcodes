@@ -28,10 +28,30 @@ print(set(d))
 # Please notice that due to the fact that elements in sets are not indexed so del() will not function
 print()
 
-admins = {"Moose", "Joker", "Jokers"}
+admins = {"Moose", "Joker", "Joker"}
 moderators = {"Ann", "Chris", "Jane", "Moose", "Zero"}
 
 print(admins) # This will auto deduplicate the extra Jokers
-print("Joker" in admins)
-print("Joker" in moderators)
-print(admins | moderators)
+print("Joker" in admins) # Is joker an admin?
+print("Joker" in moderators) # Is Joker a moderator?
+print(admins | moderators) # admins, moderators and everyone work as both, aka, everyone form both lists
+print(admins & moderators) # Who both is an admin and a moderator?
+print(admins - moderators) # Who is admin but is not moderator?
+print(admins ^ moderators) # Who has only one identity form these lists?
+# using methods will make the code more homo-sapiens friendly and easier maintaince.
+print(admins.union(moderators)) # same as |
+print(admins.intersection(moderators)) # same as &
+print(admins.difference(moderators)) # same as -
+print(admins.symmetric_difference(moderators)) # same as ^
+
+# upgrade a dataset
+print()
+arch = {"arm", "x86"}
+print(arch)
+arch.add("IA64")
+print(arch)
+arch.remove("arm")# This will delete an element if it exists in the target dataset. If it's not then it will return with KeyError
+print(arch)
+arch.discard("AMD64")# This will delete an element if it exists in the target dataset but it will continue even when the element is not in the target dataset
+print(arch)
+print(arch.pop("IA64"))# This will delete an element and return with its value. Apply it to an empty dataset will generate KeyError.
