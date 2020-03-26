@@ -18,5 +18,6 @@ These codes are written under Python 3.8 on both Arch Linux and Windows 10.
 1. [List](./python/list.py)
 2. [Tuple](./python/tuple.py)
 3. [Dataset](./python/dataset.py)
-4. [Dictionary](./python/dictionary.py)\
+4. [Dictionary](./python/dictionary.py)
 ### Files
+1. [Files](./python/files.py)
