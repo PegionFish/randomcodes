@@ -56,7 +56,7 @@ print(sorted(phonebook, reverse=True))
 # Common methods
 print()
 # Copying will make a new copy for the original dict
-phonebook3 = phonebook.copy
+phonebook3 = phonebook.copy()
 print(phonebook3)
 # Clearing the copy would not effect the original one
 phonebook3.clear()
@@ -70,7 +70,7 @@ print(phonebook)
 #
 print()
 p = phonebook.pop("clearlove", 4396)
-print (tphonebook)
+print (p)
 #
 print()
 p = phonebook.get("baolan", 4397)
