@@ -54,4 +54,9 @@ arch.remove("arm")# This will delete an element if it exists in the target datas
 print(arch)
 arch.discard("AMD64")# This will delete an element if it exists in the target dataset but it will continue even when the element is not in the target dataset
 print(arch)
-print(arch.pop("IA64"))# This will delete an element and return with its value. Apply it to an empty dataset will generate KeyError.
+print(arch.pop())# This will delete the first element and return with its value. Apply it to an empty dataset will generate KeyError.
+print(arch.clear())
+Iarch = {"Atom", "Celeron", "Pentium", "Core", "Xeon"}
+print(Iarch)
+arch.update(Iarch)
+print(arch)
