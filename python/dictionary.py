@@ -62,21 +62,22 @@ print(phonebook3)
 phonebook3.clear()
 print(phonebook3)
 print(phonebook)
-#
+# .popitem removes the item that was last inserted into the dictinoay
 print()
 p = phonebook.popitem()
 print (p)
 print(phonebook)
-#
+# .pop removes the specified item. Keyname is required but the defaultvalue is optional
 print()
 p = phonebook.pop("clearlove", 4396)
 print (p)
-#
+print(phonebook)
+# .get returns the value of the item with the specified key. Keyname is required, but the value is optional
 print()
 p = phonebook.get("baolan", 4397)
 print (p)
 print(phonebook)
-#
+# .setdefault returns the value of the item with the specified key. If the key doesnt exist, insert the key with the specified value.
 print()
 p = phonebook.setdefault("xiaohu", 2200)
 print(p)
