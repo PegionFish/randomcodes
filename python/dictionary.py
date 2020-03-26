@@ -26,7 +26,7 @@ print(phonebook["dunce"])
 # Add elements to a dict from an exsisting dict
 print()
 phonebook2 = {"clearlove":4396, "xiaohu":2200, "baolan":4397}
-print(phonebook2)sufei 
+print(phonebook2)
 phonebook.update(phonebook2)
 print(phonebook)
 
@@ -45,8 +45,8 @@ print(("clearlove", 4396) in phonebook.items())
 # Build-in Functions avaliable for manipulation
 print()
 print(len(phonebook)) # The length of the dict
-print(max(phonebook)) # Outputs the key which has the minimal value
-print(min(phonebook)) # Outputs the key which has the largest value
+print(max(phonebook)) # Outputs the largest key
+print(min(phonebook)) # Outputs the minimal key
 print(list(phonebook))
 print(tuple(phonebook))
 print(set(phonebook))
@@ -54,4 +54,30 @@ print(sorted(phonebook))
 print(sorted(phonebook, reverse=True))
 
 # Common methods
-print(s)
+print()
+# Copying will make a new copy for the original dict
+phonebook3 = phonebook.copy
+print(phonebook3)
+# Clearing the copy would not effect the original one
+phonebook3.clear()
+print(phonebook3)
+print(phonebook)
+#
+print()
+p = phonebook.popitem()
+print (p)
+print(phonebook)
+#
+print()
+p = phonebook.pop("clearlove", 4396)
+print (tphonebook)
+#
+print()
+p = phonebook.get("baolan", 4397)
+print (p)
+print(phonebook)
+#
+print()
+p = phonebook.setdefault("xiaohu", 2200)
+print(p)
+print(phonebook)
