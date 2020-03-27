@@ -21,3 +21,6 @@ These codes are written under Python 3.8 on both Arch Linux and Windows 10.
 4. [Dictionary](./python/dictionary.py)
 ### Files
 1. [Files](./python/files.py)
+2. [A demo working with File](./python/afp.py)
+    > Words file using here is from [dwyl](https://github.com/dwyl) 's [project](https://github.com/dwyl/english-words)
+3. 

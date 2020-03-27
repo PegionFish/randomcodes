@@ -1,4 +1,4 @@
-# Generate a set
+    # Generate a set
 primes = {2, 3, 5, 7, 11, 13, 17}
 print(primes)
 
@@ -60,3 +60,4 @@ Iarch = {"Atom", "Celeron", "Pentium", "Core", "Xeon"}
 print(Iarch)
 arch.update(Iarch)
 print(arch)
+
