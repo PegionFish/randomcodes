@@ -10,7 +10,7 @@ def sum_of_word(word):
 print(sum_of_word("latitude"))
 print(sum_of_word("Latitude"))
 print(sum_of_word("precision"))
-print(sum_of_word("Precision"))
+print(sum_of_word("Preision"))
 
 with open("result.txt", "w") as result: ## Generating result.txt as result
     with open("words_alpha.txt", "r") as file:
