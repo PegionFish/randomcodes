@@ -12,10 +12,6 @@ def run_game():
     ship = Ship(screen)
 
     while True:
-        for event in pygame.event.get():
-            if event.type == pygame.QUIT:
-                sys.exit()
-
         screen.fill(ai_settings.bg_color)
         ship.blitme()
         pygame.display.flip()

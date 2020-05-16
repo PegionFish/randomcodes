@@ -3,7 +3,7 @@
 别看，看就离谱  
 
 ## Python basic
-These codes are written under Python 3.8 on both Arch Linux and Windows 10.  
+These codes are written under Python 3.8 on both Linux and Windows 10.  
 ### Values and their operations
 1. [Boolean](./python/boolean.py)
 2. [Looping](./python/looping.py)
